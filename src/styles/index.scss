@@ -1,2 +1,15 @@
 @import "~@csstools/normalize.css";
 @import "vars";
+@import "mixins";
+@import "fonts";
+
+@include font-face("Helvetica Neue Cyr", fonts/HelveticaNeueCyr-Medium);
+@include font-face("Helvetica Neue Cyr", fonts/HelveticaNeueCyr-Bold, bold);
+@include font-face("Helvetica Neue Cyr", fonts/HelveticaNeueCyr-BoldItalic, bold, italic);
+@include font-face("Helvetica Neue Cyr", fonts/HelveticaNeueCyr-Italic, null, italic);
+@include font-face("Monument Extended", fonts/MonumentExtended-Regular);
+@include font-face("Monument Extended", fonts/MonumentExtended-Ultrabold, bold);
+
+h1 {
+  @include h1();
+}

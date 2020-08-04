@@ -1,0 +1,43 @@
+@import 'vars';
+
+@mixin h1 {
+  font-family: $secondary-font;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 60px;
+}
+
+@mixin h3 {
+  font-family: $secondary-font;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+@mixin h4 {
+  font-family: $secondary-font;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+@mixin h8-subline {
+  font-family: $secondary-font;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@mixin text {
+  font-family: $primary-font;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@mixin signature {
+  font-family: $primary-font;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 15px;
+}
