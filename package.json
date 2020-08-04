@@ -45,6 +45,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@csstools/normalize.css": "^10.1.0",
     "prettier": "^2.0.5"
   }
 }
